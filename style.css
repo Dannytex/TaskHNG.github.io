@@ -493,9 +493,8 @@ input {
 	font-size: 13px;
 	padding:5px;
 	outline: none;
-	transition-duration: 0.25s;
-	font-weight: 300;
 }
+
 input:focus {
 	background-color: #dddddd;
 	border-top:1px solid #c8c8c8;
@@ -548,11 +547,13 @@ textarea:focus {
 	border: none;
 }
 
+.copyright {
+	float: left;
+	color: #1b4491;
+}
+
+
 @media screen and (max-width: 700px){
-	.entry{
-		display: block;
-		width: 80%;
-	}
 	#wrapper {
 		width: 56.9%;
 	}
