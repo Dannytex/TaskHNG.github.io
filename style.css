@@ -493,8 +493,9 @@ input {
 	font-size: 13px;
 	padding:5px;
 	outline: none;
+	transition-duration: 0.25s;
+	font-weight: 300;
 }
-
 input:focus {
 	background-color: #dddddd;
 	border-top:1px solid #c8c8c8;
@@ -545,4 +546,20 @@ textarea:focus {
 	background: transparent url(https://res.cloudinary.com/code-shield/image/upload/v1567425696/submit_elo9ql.jpg) no-repeat 0 -33px;
 	outline: 0;
 	border: none;
+}
+
+@media screen and (max-width: 700px){
+	.entry{
+		display: block;
+		width: 80%;
+	}
+	#wrapper {
+		width: 56.9%;
+	}
+	#paper{
+		width: 42.8;
+	}
+	#wrapper{
+		width:
+	}
 }
