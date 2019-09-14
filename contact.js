@@ -7,19 +7,19 @@ function validate()
     var message = document.forms["contactform"]["Message"]; 
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-    if (name.value == ""  ||  name.value.length != 4 )
-    { 
-        alert("Please enter your name!"); 
-        name.focus(); 
-        return false; 
+    //if (name.value == ""  ||  name.value.length != 4 )
+    //{ 
+    //    alert("Please enter your name!"); 
+      //  name.focus(); 
+       // return false; 
     } 
-    if (email.value !==(mailformat))
+
+    if (email.value !== (mailformat))
     {
         alert("You have entered an invalid email address!");
-        Email.focus();
+        email.focus();
         return false;
     }
-
  
     if (subject.value == "")
     {
